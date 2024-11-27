@@ -3,3 +3,58 @@
     padding: o;
     box-sizing: border-box;
 }
+
+header{
+    height:80px;
+    max-width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.headersetup{
+    display: flex;
+    align-items: center;
+    
+}
+.headerlist li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.headerlink:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.headerlink {
+    text-decoration: none;
+    color: black;
+}
+
+.headset{
+    display: flex;
+    align-items: center;
+}
+
+.headlist li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.headlink{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    background-color: rgb(13, 109, 252);
+    color: white;
+    padding: 5px 5px;
+}
