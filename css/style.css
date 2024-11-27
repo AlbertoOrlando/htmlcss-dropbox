@@ -5,7 +5,7 @@
 }
 
 header{
-    height:80px;
+    height:70px;
     max-width: 100%;
     /* background-color: black; */
     display: flex;
@@ -16,6 +16,8 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 9999;
+    background-color: white;
 }
 
 .headersetup{
@@ -53,8 +55,67 @@ header{
     color: black;
 }
 
+/* button rules */
+
 .button{
     background-color: rgb(13, 109, 252);
     color: white;
     padding: 5px 5px;
+    text-decoration: none;
 }
+
+/* jumbo */
+
+.jumbo{
+    background-color: rgb(132, 184, 202);
+    /* padding-left: 15%;
+    padding-right: %;
+    padding-top: 5%; */
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.jumbocontainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.spanjumbo{
+    display: block;
+}
+
+.jumboimg{
+    max-width: 70%;
+}
+
+.jumbocontent{
+    display: flex;
+    width: 80%;
+}
+
+.jumbop{
+    margin-bottom: 10%;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#spanj1{
+    font-size: 13px;
+}
+
+#spanj2{
+    font-size: 30px;
+}
+
+/* main */
