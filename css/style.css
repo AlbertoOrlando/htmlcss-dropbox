@@ -1,121 +1,161 @@
 *{
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    height:70px;
-    max-width: 100%;
-    /* background-color: black; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    background-color: white;
-}
-
-.headersetup{
-    display: flex;
-    align-items: center;
-    
-}
-.headerlist li{
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.headerlink:hover{
-    border-bottom: 2px solid black;
-    padding-bottom: 10px;
-}
-
-.headerlink {
+.anone{
     text-decoration: none;
-    color: black;
 }
 
-.headset{
-    display: flex;
-    align-items: center;
-}
-
-.headlist li{
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.headlink{
-    text-decoration: none;
-    color: black;
-}
-
-/* button rules */
-
-.button{
-    background-color: rgb(13, 109, 252);
+.buttonblu{
+    background-color: blue;
     color: white;
-    padding: 5px 5px;
-    text-decoration: none;
-}
-
-/* jumbo */
-
-.jumbo{
-    background-color: rgb(132, 184, 202);
-    /* padding-left: 15%;
-    padding-right: %;
-    padding-top: 5%; */
-    width: 100%;
-    /* display: flex;
-    flex-direction: column; */
-}
-
-.jumbocontainer{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20%;
-}
-
-.spanjumbo{
-    display: block;
-}
-
-.jumboimg{
-    max-width: 70%;
-}
-
-.jumbocontent{
-    display: flex;
-    width: 80%;
-}
-
-.jumbop{
-    margin-bottom: 10%;
-    font-size: 15px;
     padding: 5px 5px;
 }
 
 h1{
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 90px;
+    padding-bottom: 30px;
+}
+/* header */
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.headcontl{
+    /* height: 40px;
+    width: 50px;
+    background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.headcontr{
+    /* height: 40px;
+    width: 50px;
+    background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.inlineli li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.lihead{
+    color: black;
+}
+
+
+/* jumbo */
+
+.jumbo{
+    /* height: 500px; */
+    background-color: rgb(132, 184, 202);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.jcontainer{
     width: 80%;
+    /* height: 300px; */
+    /* background-color: brown; */
+    padding: 50px 50px;
 }
 
-#spanj1{
-    font-size: 13px;
+.jrcon{
+    width: 70%;
 }
 
-#spanj2{
-    font-size: 30px;
+.jrcon img{
+    max-width: 100%;
+}
+
+.jlcon{
+    display: flex;
+}
+
+.jlcontainer{
+    width: 30%;
+}
+
+.jpos{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.jlcontainer p{
+    font-size: 20px;
+}
+
+.fa-arrow-down{
+    color: black;
+    margin-top: 30px;
+    font-size: 40px;
 }
 
 /* main */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.mcontainer{
+    height: 500px;
+    width: 70%;
+    background-color: blueviolet;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.fcontainer{
+    width: 80%;
+}
+
+.white{
+    color: white;
+}
+
+.ftit{
+    font-size: 25px;
+}
+
+.flist
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flist li{
+    margin-bottom: 10px;
+}
+
+.lastf{
+    padding-top: 50px;
+}
+
+.ful{
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+}
+
