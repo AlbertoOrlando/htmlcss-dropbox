@@ -129,10 +129,40 @@ main{
     padding-bottom: 60px;
 }
 
+.con2{
+    display: flex;
+}
+
+.con2img img{
+    max-width: 100%;
+}
+
+.con2img{
+    width: 60%%;
+    padding: 10px 10px;
+}
+
+.con2info{
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.con2info p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .cont3con{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+#gray{
+    color: gray;
+    border: 2px solid gray;
+    padding: 5px 5px;
 }
 
 .par {
