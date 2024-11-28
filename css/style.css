@@ -25,7 +25,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
 
 .headcontl{
@@ -111,9 +111,37 @@ main{
 }
 
 .mcontainer{
-    height: 500px;
+    /* height: 500px; */
     width: 70%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+}
+.h2siza{
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.inlin2{
+    padding-bottom: 30px;
+}
+
+.linkmain{
+    padding-bottom: 60px;
+}
+
+.cont3con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.par {
+    width: 30%;
+    padding: 10px 0px;
+}
+
+.contimg img{
+    max-width: 100%;
 }
 
 /* footer */
@@ -124,7 +152,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .fcontainer{
